@@ -137,7 +137,7 @@ Frontend Developer
 
 ## 👨🏽‍💻 Portfolio
 
-Check out more of my work: [https://portfolio-website-wzut.vercel.app](https://portfolio-website-wzut.vercel.app)
+🌐 **Portfolio** — [View my personal site](https://portfolio-website-wzut.vercel.app/)
 
 
 🏁 Future Improvements
