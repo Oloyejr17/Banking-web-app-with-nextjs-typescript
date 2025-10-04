@@ -135,10 +135,8 @@ npm run lint	-- Check code style and lint issues
 👤 Azubike Oloye
 Frontend Developer
 
-## 👨🏽‍💻 Portfolio
-
-🌐 **Portfolio** — [View my personal site](https://portfolio-website-wzut.vercel.app/)
-
+## 🌐 Portfolio
+[View my personal portfolio website](https://portfolio-website-wzut.vercel.app/)
 
 🏁 Future Improvements
 🔐 Add two-factor authentication (2FA)
