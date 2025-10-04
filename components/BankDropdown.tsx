@@ -55,6 +55,7 @@ export const BankDropdown = ({
         />
         <p className="line-clamp-1 w-full text-left">{selected?.name}</p>
       </SelectTrigger>
+
       <SelectContent
         className={`w-full bg-white md:w-[300px] ${otherStyles}`}
         align="end"
@@ -63,10 +64,11 @@ export const BankDropdown = ({
           <SelectLabel className="py-2 font-normal text-gray-500">
             Select a bank to display
           </SelectLabel>
+
           {accounts.map((account, index) => (
             <SelectItem
-              key={`${account.appwriteItemId}-${index}`} // Using a combination of appwriteItemId and index as key
-              value={account.appwriteItemId}
+              key={account.appwriteItemId ?? `account-${index}`}
+              value={account.appwriteItemId ?? `account-${index}`}
               className="cursor-pointer border-t"
             >
               <div className="flex flex-col">
